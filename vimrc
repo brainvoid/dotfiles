@@ -1,4 +1,4 @@
-" Sample .vimrc file by Martin Brochhaus
+m Sample .vimrc file by Martin Brochhaus
 " Presented at PyCon APAC 2012
 
 
