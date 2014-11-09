@@ -12,7 +12,7 @@ augroup END
 filetype plugin indent on " filetype detection[ON] plugin[ON] indent[ON]
 syntax on                 " enable syntax highlighting (previously syntax on).
 set t_Co=256            " enable 256-color mode.
-color wombat256mod               "256mod     set colorscheme (slate / wombat /
+colorscheme elflord
 set number                " show line numbers
 set laststatus=2          " last window always has a statusline
 filetype indent on        " activates indenting for files
@@ -34,7 +34,7 @@ set nowrap                " don't wrap text
 " Pathogen Plugin
 " mkdir -p ~/.vim/autoload ~/.vim/bundle 
 " curl 'www.vim.org/scripts/download_script.php?src_id=16224' >> ~/.vim/autoload/pathogen.vim
-call pathogen#infect()
+execute pathogen#infect()
 
 " Ctrlp.vim
 " git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
