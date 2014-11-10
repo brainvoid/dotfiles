@@ -2,6 +2,10 @@
 "
 " Author: Tomas Restrepo <tomas@winterdom.com>
 " https://github.com/tomasr/molokai
+" modified by for own dotfile purposes
+"         Tobias Schmitt <dev@brainvoid.de>
+" https://github.com/brainvoid/dotfiles
+"
 "
 " Note: Based on the Monokai theme for TextMate
 " by Wimer Hazenberg and its darker variant
