@@ -1,0 +1,15 @@
+[user]
+	name = Tobias Schmitt
+	email = dev@brainvoid.de
+[push]
+	default = simple
+[default]
+	editor = vim
+[core]
+	editor = vim
+[alias]
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
