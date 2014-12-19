@@ -1,4 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/bvd/thm/projects/swtp-biolib'
-let g:netrw_dirhist_2='/home/bvd/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-dmiedema-SLASH-fuck-you.git'
