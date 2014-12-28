@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "linking files..."
+echo "- vimrc"
+ln -s ./vimrc ~/.vimrc
+echo "- zshrc"
+ln -s ./zshrc ~/.zshrc
+echo "- bashrc"
+ln -s ./bashrc ~/.bashrc
+echo "- tmux.conf"
+ln -s ./tmux.conf ~/.tmux.conf
+echo "- vim/"
+ln -s ./vim ~/.vim
