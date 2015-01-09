@@ -1,10 +1,10 @@
-# brainvoids zshrc - 2014 
+# brainvs zshrc - 2014 
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.dotfiles/oh-my-zsh
 
 # Theme
-ZSH_THEME="lambda"
+ZSH_THEME="wedisagree"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -80,5 +80,8 @@ export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/
 export EDITOR='vim'
 
 # - aliases
-alias ta="tmux attach-session -t"
-alias hoooo='sudo $(fc -ln -1)'
+alias tatt="tmux attach-session -t"
+alias tkill="tmux kill-session -t"
+alias tmv="tmux rename-session -t"
+alias tls="tmux ls"
+alias hoo='sudo $(fc -ln -1)'
