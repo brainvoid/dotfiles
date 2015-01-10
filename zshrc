@@ -1,6 +1,7 @@
 # brainvs zshrc - 2014 
 
 # Path to your oh-my-zsh installation.
+export DOTFILES=$HOME/.dotfiles
 export ZSH=$HOME/.dotfiles/oh-my-zsh
 
 # Theme
@@ -85,3 +86,4 @@ alias tkill="tmux kill-session -t"
 alias tmv="tmux rename-session -t"
 alias tls="tmux ls"
 alias hoo='sudo $(fc -ln -1)'
+alias imgur='$DOTFILES/imgur-screenshot/imgur-screenshot.sh -l'

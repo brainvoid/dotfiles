@@ -16,3 +16,6 @@
 [submodule "vim/bundle/tabular"]
 	path = vim/bundle/tabular
 	url = git@github.com:godlygeek/tabular.git
+[submodule "imgur-screenshot"]
+	path = imgur-screenshot
+	url = git@github.com:jomo/imgur-screenshot.git
