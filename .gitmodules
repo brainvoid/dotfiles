@@ -3,19 +3,19 @@
 	url = https://github.com/kien/ctrlp.vim.git
 [submodule "vim/bundle/airline"]
 	path = vim/bundle/airline
-	url = git@github.com:bling/vim-airline.git
+	url = https://github.com/bling/vim-airline.git
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
-	url = http://github.com/robbyrussell/oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh
 [submodule "vim/bundle/vim-gitgutter"]
 	path = vim/bundle/vim-gitgutter
-	url = git://github.com/airblade/vim-gitgutter.git
+	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "vim/bundle/vim-misc"]
 	path = vim/bundle/vim-misc
-	url = git@github.com:xolox/vim-misc.git
+	url = https://github.com/xolox/vim-misc.git
 [submodule "vim/bundle/tabular"]
 	path = vim/bundle/tabular
-	url = git@github.com:godlygeek/tabular.git
+	url = https://github.com/godlygeek/tabular.git
 [submodule "imgur-screenshot"]
 	path = imgur-screenshot
-	url = git@github.com:jomo/imgur-screenshot.git
+	url = https://github.com/jomo/imgur-screenshot.git
