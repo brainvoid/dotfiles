@@ -109,4 +109,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-alias hoooo='sudo $(fc -ln -1)'
+export $DOTFILES=$HOME/.dotfiles
+source $DOTFILES/term_alias
+source $DOTFILES/term_export
+

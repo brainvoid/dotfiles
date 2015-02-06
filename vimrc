@@ -1,5 +1,7 @@
 " vimrc by Tobias Schmitt (github.com/brainvoid)
 
+set encoding=utf-8
+
 set nocompatible          " get rid of Vi compatibility mode. SET FIRST!
 " always autoreload .vimrc when saved
 augroup myvimrc
@@ -32,10 +34,30 @@ set wrap                                          " don't wrap text
 set listchars=tab:>-,trail:~,extends:>,precedes:< " add listchars
 set list                                          " enable list
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " no autocomments
+
+" folding stuff
+set foldmethod=indent
+set foldnestmax=2
+nnoremap <space> zA
+vnoremap <space> zA
+
+" Movement
+" =========
+" bind Ctrl+<movement> keys to move around the windows, instead of using Ctrl+w + <movement>
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
+
+" Custom mappings
+" ================
+vnoremap < <gv " better indentation
+vnoremap > >gv " better indentation
+
 " Plugin space
 
 " Pathogen Plugin
-" mkdir -p ~/.vim/autoload ~/.vim/bundle 
+" mkdir -p ~/.vim/autoload ~/.vim/bundle
 " curl 'www.vim.org/scripts/download_script.php?src_id=16224' >> ~/.vim/autoload/pathogen.vim
 execute pathogen#infect()
 " Ctrlp.vim
