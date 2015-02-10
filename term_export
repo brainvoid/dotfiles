@@ -4,4 +4,3 @@ export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/s
 
 # SETTINGS
 export EDITOR='vim'
-export TERM="screen-256color"

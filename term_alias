@@ -1,4 +1,5 @@
 # tmux stuff
+alias tmux="tmux -2"
 alias tatt="tmux attach-session -t"
 alias tkill="tmux kill-session -t"
 alias tmv="tmux rename-session -t"
