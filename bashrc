@@ -109,7 +109,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export $DOTFILES=$HOME/.dotfiles
+export DOTFILES=$HOME/.dotfiles
 source $DOTFILES/term_alias
 source $DOTFILES/term_export
 

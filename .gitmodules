@@ -19,3 +19,6 @@
 [submodule "imgur-screenshot"]
 	path = imgur-screenshot
 	url = https://github.com/jomo/imgur-screenshot.git
+[submodule "vim/bundle/clang_complete"]
+	path = vim/bundle/clang_complete
+	url = https://github.com/Rip-Rip/clang_complete.git
