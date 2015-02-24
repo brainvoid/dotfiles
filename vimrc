@@ -54,6 +54,11 @@ map <c-h> <c-w>h
 vnoremap < <gv " better indentation
 vnoremap > >gv " better indentation
 
+" Highlights
+" ================
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
+
 " Plugin space
 
 " Pathogen Plugin
