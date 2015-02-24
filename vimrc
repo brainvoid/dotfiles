@@ -63,3 +63,8 @@ execute pathogen#infect()
 " Ctrlp.vim
 " git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" Clang Complete Settings
+" Avoid freezing on offending code
+let g:clang_user_options='|| exit 0'
+let g:clang_library_path='/usr/lib/libclang.so'
