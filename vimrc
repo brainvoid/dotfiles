@@ -15,7 +15,7 @@ set shell=/bin/bash
 filetype plugin indent on                         " filetype detection[ON] plugin[ON] indent[ON]
 syntax on                                         " enable syntax highlighting (previously syntax on).
 set t_Co=256                                      " enable 256-color mode.
-colorscheme wombat256mod
+colorscheme atom-dark-256
 set number                                        " show line numbers
 set laststatus=2                                  " last window always has a statusline
 filetype indent on                                " activates indenting for files
