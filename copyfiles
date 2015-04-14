@@ -8,6 +8,8 @@ SCRIPTPATH=~/.dotfiles
 echo "linking files..."
 echo "- vimrc"
 ln -sf $SCRIPTPATH/vimrc ~/.vimrc
+echo "- gitconfig"
+ln -sf $SCRIPTPATH/gitconfig ~/.gitconfig
 echo "- zshrc"
 ln -sf $SCRIPTPATH/zshrc ~/.zshrc
 echo "- bashrc"
