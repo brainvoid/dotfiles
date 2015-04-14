@@ -4,7 +4,7 @@ export DOTFILES=$HOME/.dotfiles
 export ZSH=$DOTFILES/oh-my-zsh
 
 # Theme
-ZSH_THEME="robbyrussell"
+ZSH_THEME="eastwood"
 
 plugins=(git rails cp django copyfile copydir git git-extras tmux sudo sublime rsync python pip perl nyan lol)
 
