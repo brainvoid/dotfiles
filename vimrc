@@ -69,14 +69,3 @@ execute pathogen#infect()
 " git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
-" Clang Complete Settings
-" Avoid freezing on offending code
-if has("unix")
-  let s:uname = substitute(system("uname"), '\n', '', '')
-  if s:uname == "Darwin"
-    let g:clang_library_path="/Library/Developer/CommandLineTools/usr/lib/libclang.dylib"
-  elseif s:uname == "Linux"
-    let g:clang_library_path='/usr/lib/libclang.so'
-  endif
-endif
-let g:clang_user_options='|| exit 0'
