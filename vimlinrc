@@ -1,5 +1,0 @@
-" theme
-let g:airline_theme="zenburn"
-set background=dark
-colorscheme solarized
-

@@ -1,5 +1,0 @@
-" theme
-let g:airline_theme="solarized"
-set background=light
-colorscheme solarized
-
