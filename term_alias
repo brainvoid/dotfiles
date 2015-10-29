@@ -5,24 +5,9 @@ alias tkill="tmux kill-session -t"
 alias tmv="tmux rename-session -t"
 alias tls="tmux ls"
 
-# fun and tools
-alias hoo='sudo $(fc -ln -1)'
-alias imgur='$DOTFILES/imgur-screenshot/imgur-screenshot.sh -l'
-
-# file and dir listings
-alias l='ls -CF' # directories and files in columns
-alias la='ls -A' # directories and files incl. hidden in columns
-alias ll='ls -ahlF' # everything with extra info as a list
-alias lsd='ls -l | grep "^d"' # only directories as a list
-
 # Enhanced WHOIS lookups
 alias whois="whois -h whois-servers.net"
 
 # Add an "alert" alias for long running commands. Use like so:
 # sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-
-# lolcommits terminal
-alias lolen="lolcommits --enable --stealth --gif --animate=3 --fork"
-alias lolbr="lolcommits --browse"
-alias lolla="lolcommits --last"
