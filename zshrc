@@ -6,7 +6,7 @@ export ZSH=$DOTFILES/oh-my-zsh
 # Theme
 ZSH_THEME="eastwood"
 
-plugins=(git rails cp django copyfile copydir git git-extras tmux sudo sublime rsync python pip perl nyan lol)
+plugins=(rails cp django copyfile copydir git git-extras tmux sudo sublime rsync python pip perl nyan lol)
 
 source $ZSH/oh-my-zsh.sh
 
