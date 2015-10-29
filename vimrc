@@ -1,6 +1,9 @@
 " just my personal vimRC 
 " author: tsmt (http://www.github.com/tsmt)
 
+" color
+colorscheme pablo
+
 " turn of unexpected stuff distro could make
 set nocompatible
 
