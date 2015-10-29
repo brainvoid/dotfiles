@@ -6,8 +6,8 @@
 SCRIPTPATH=~/.dotfiles
 
 echo "linking files..."
-#echo "- vimrc"
-#ln -sf $SCRIPTPATH/vimrc ~/.vimrc
+echo "- vimrc"
+ln -sf $SCRIPTPATH/vimrc ~/.vimrc
 echo "- gitconfig"
 ln -sf $SCRIPTPATH/gitconfig ~/.gitconfig
 echo "- zshrc"
@@ -16,5 +16,5 @@ echo "- bashrc"
 ln -sf $SCRIPTPATH/bashrc ~/.bashrc
 echo "- tmux.conf"
 ln -sf $SCRIPTPATH/tmux.conf ~/.tmux.conf
-#echo "- vim/"
-#ln -sf $SCRIPTPATH/vim ~/.vim
+echo "- vim/"
+ln -sf $SCRIPTPATH/vim ~/.vim
