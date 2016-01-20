@@ -2,7 +2,7 @@
 " author: tsmt (http://www.github.com/tsmt)
 
 " color
-colorscheme pablo
+colorscheme default
 
 " turn of unexpected stuff distro could make
 set nocompatible
