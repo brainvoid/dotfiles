@@ -19,14 +19,6 @@ filetype indent plugin on
 " enable syntax
 syntax on
 
-"better commandline complete
-set wildmenu
-
-" Show trailing whitespace
-" =========================
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
-au InsertLeave * match ExtraWhitespace /\s\+$/
-map <Leader>x :%s/\s\+$//
 
 "show partial commands
 set showcmd
