@@ -4,7 +4,7 @@ export DOTFILES=$HOME/.dotfiles
 export ZSH=$DOTFILES/oh-my-zsh
 
 # Theme
-ZSH_THEME="clean"
+ZSH_THEME="risto"
 
 plugins=(common-aliases brew cp copyfile copydir gitfast git-extras tmux sudo rsync python pip nyan)
 
