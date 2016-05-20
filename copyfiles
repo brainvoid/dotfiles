@@ -18,3 +18,8 @@ echo "- tmux.conf"
 ln -sf $SCRIPTPATH/tmux.conf ~/.tmux.conf
 echo "- vim/"
 ln -sf $SCRIPTPATH/vim ~/.vim
+echo "- creating vim_local"
+touch $SCRIPTPATH/vim_local
+echo "- creating zsh_local"
+touch $SCRIPTPATH/zsh_local
+

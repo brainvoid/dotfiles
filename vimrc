@@ -14,6 +14,9 @@ color deepsea
 " turn of unexpected stuff distro could make
 set nocompatible
 
+" no swapfiles for god's sake
+set noswapfile
+
 " try to indent by filetype
 filetype indent plugin on
 " enable syntax
@@ -67,3 +70,4 @@ map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
 
+source ~/.dotfiles/vim_local
