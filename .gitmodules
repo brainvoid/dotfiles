@@ -4,3 +4,6 @@
 [submodule "vim/bundle/vim-airline"]
 	path = vim/bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "vim/bundle/vim-clang"]
+	path = vim/bundle/vim-clang
+	url = https://github.com/justmao945/vim-clang.git
