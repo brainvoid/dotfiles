@@ -9,7 +9,7 @@ execute pathogen#infect()
 
 " color
 set t_Co=256
-color pablo
+color slate
 
 " turn of unexpected stuff distro could make
 set nocompatible
