@@ -10,8 +10,6 @@ echo "- vimrc"
 ln -sf $SCRIPTPATH/vimrc ~/.vimrc
 echo "- gitconfig"
 ln -sf $SCRIPTPATH/gitconfig ~/.gitconfig
-echo "- zshrc"
-ln -sf $SCRIPTPATH/zshrc ~/.zshrc
 echo "- bashrc"
 ln -sf $SCRIPTPATH/bashrc ~/.bashrc
 echo "- tmux.conf"
@@ -20,6 +18,4 @@ echo "- vim/"
 ln -sf $SCRIPTPATH/vim ~/.vim
 echo "- creating vim_local"
 touch $SCRIPTPATH/vim_local
-echo "- creating zsh_local"
-touch $SCRIPTPATH/zsh_local
 
