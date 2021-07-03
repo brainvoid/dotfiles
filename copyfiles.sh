@@ -12,6 +12,8 @@ echo "- gitconfig"
 ln -sf $SCRIPTPATH/gitconfig ~/.gitconfig
 echo "- bashrc"
 ln -sf $SCRIPTPATH/bashrc ~/.bashrc
+echo "- zshrc"
+ln -sf $SCRIPTPATH/zshrc ~/.zshrc
 echo "- tmux.conf"
 ln -sf $SCRIPTPATH/tmux.conf ~/.tmux.conf
 echo "- vim/"
