@@ -10,4 +10,3 @@
 	last = log -1 HEAD
 [user]
 	name = Tobias Schmitt
-	email = tschmittldk@gmail.com
