@@ -20,4 +20,5 @@ echo "- vim/"
 ln -sf $SCRIPTPATH/vim ~/.vim
 echo "- creating vim_local"
 touch $SCRIPTPATH/vim_local
-
+echo "- assume unchanged"
+bash assume-unchanged.sh
