@@ -11,9 +11,9 @@ ln -sf $SCRIPTPATH/vimrc ~/.vimrc
 echo "- gitconfig"
 ln -sf $SCRIPTPATH/gitconfig ~/.gitconfig
 echo "- bashrc"
-ln -sf $SCRIPTPATH/bashrc ~/.bashrc
+echo "source $HOME/.dotfiles/bashrc" >> $HOME/.bashrc
 echo "- zshrc"
-ln -sf $SCRIPTPATH/zshrc ~/.zshrc
+echo "source $HOME/.dotfiles/zshrc" >> $HOME/.zshrc
 echo "- tmux.conf"
 ln -sf $SCRIPTPATH/tmux.conf ~/.tmux.conf
 echo "- vim/"
