@@ -7,12 +7,13 @@ autocmd! bufwritepost .vimrc source %
 call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 " color
 set t_Co=256
-color slate
+color monokai-phoenix
 
 " turn of unexpected stuff distro could make
 set nocompatible
@@ -72,5 +73,9 @@ map <c-j> <c-w>j
 map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
+
+" Ctrl-P
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
 
 source ~/.dotfiles/vim_local
