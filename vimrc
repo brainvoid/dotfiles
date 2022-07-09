@@ -2,10 +2,13 @@
 " author: tsmt (http://www.github.com/tsmt)
 set encoding=utf-8
 autocmd! bufwritepost .vimrc source %
-call pathogen#infect()
 
-" infect this with pathogen
-execute pathogen#infect()
+" load vim-plug
+call plug#begin()
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
 
 " color
 set t_Co=256
